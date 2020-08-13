@@ -137,9 +137,8 @@ const { products, addItem } = useContext(ProductContext);
 
 - While were at it let's go ahead and remove the props from our navigation as well.
 
-<button onClick={() => props.removeItem(props.product)}>
-				Remove from cart
-			</button>
+**DONE**
+
 
 **STEP 7 - The final stretch**
 
