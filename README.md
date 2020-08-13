@@ -52,6 +52,8 @@ Before you get started, please take a few minutes and get acquainted with this a
 
 - In this file, import the `createContext` function from the react library and create our `ProductContext`.
 
+**Done**
+
 **STEP 3 - Providing data with ProductContext**
 
 - Now that we've created our `ProductContext` we can import into our `App.js`. Now we can start providing data across our application!
@@ -85,10 +87,12 @@ Before you get started, please take a few minutes and get acquainted with this a
 ```
 
 - After refactoring you'll notice a few errors... Don't worry we'll clean those up shortly!
+**Done**
 
 **STEP 4 - Consuming data with ProductContext**
 
 - Now that our `ProductContext` is now providing data we can finally consume it! To do so let's head over to our `Products` component and import the `useContext` hook as well as our `ProductContext`.
+**Check**
 
 - In the component, call the `useContext` hook and pass in the context object we want to use into it.
 
@@ -97,6 +101,8 @@ Before you get started, please take a few minutes and get acquainted with this a
 ```js
 const { products, addItem } = useContext(ProductContext);
 ```
+
+**Check**
 
 - Now that we have all of the data we need we can refactor our `Products` component from using props.
 
@@ -107,6 +113,8 @@ const { products, addItem } = useContext(ProductContext);
   - Remove it from addItem prop
 
 - Now our `Products` component is getting it's data solely from `Context API` 😃.
+
+**Done**
 
 **STEP 5 - Create the CartContext**
 
